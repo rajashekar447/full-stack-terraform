@@ -8,7 +8,7 @@ pipeline {
     environment {
         TF_VAR_aws_region    = 'ap-south-1'
         TF_VAR_ami_id        = 'ami-01a00762f46d584a1'
-        TF_VAR_instance_type = 't3.small'
+        TF_VAR_instance_type = 'c7i-flex.large'
         TF_VAR_my_ip         = '157.35.99.127/32'
         TF_VAR_key_name      = 'Raja'
         TF_VAR_db_username   = 'appuser'
